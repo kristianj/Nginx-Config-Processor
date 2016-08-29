@@ -123,6 +123,14 @@ class Scope extends Printable
     {
         return $this->parentDirective;
     }
+    
+    /**
+     * Get directives
+     * @return Directive[]
+     */
+    public function getDirectives () {
+        return $this->directives;
+    }
 
     /*
      * ========== Setters ==========
